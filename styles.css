@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(46, 66, 70), rgba(4, 9, 14, 0.4), rgba(11, 20, 10, 0.09));
+}
+
+form {
+    width: 500px;
+    height: auto;
+    background: transparent;
+    padding: 17px;
+    margin: auto;
+    margin-top: 9vh;
+    text-align: center;
+}
+
+.login {
+    width: 418px;
+    background: rgba(45, 70, 82, 0.349);
+    padding: 50px;
+    height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 295px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background: rgba(20, 20, 24, 0.514);
+    font-style: italic;
+    border-top: none;
+    border-bottom: 3px solid rgba(63, 20, 54, 0.658);
+    color: rgba(232, 232, 241, 0.904);
+    font-weight: 700;
+    border-right: none;
+    border-left: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background: rgba(28, 46, 56, 0.226);
+    width: 305px;
+    box-shadow: 0 0 20px rgba(12, 26, 34, 0.705);
+    border-bottom: 2px solid rgba(131, 60, 127, 0.596);
+}
+
+h4 {
+    font-size: 17px;
+    margin-bottom: 6px;
+    color: rgba(31, 13, 30, 0.89);
+    text-shadow: 0 0 23px rgba(40, 6, 44, 0.644);
+}
+
+input[type="radio"] {
+    width: 20px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.sex {
+    width: 146px;
+    background: rgba(21, 39, 51, 0.281);
+    font-size: 15px;
+    padding: 2px;
+    margin: 3px;
+    float: left;
+    text-align: left;
+}
+
+.show {
+    width: 320px;
+    text-align: right;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgba(8, 27, 37, 0.829);
+    word-spacing: 2px;
+}
+
+.sex-type1 {
+    width: 23px;
+}
+
+.sex-type {
+    display: inline-block;
+    width: 40px;
+    margin-right: 3px;
+}
+
+.marital-status {
+    width: 160px;
+    background: rgba(21, 39, 51, 0.281);
+    font-size: 15px;
+    padding: 2px;
+    margin: 3px;
+    float: right;
+    text-align: left;
+}
+
+.status1,
+.status2 {
+    width: 25px;
+    margin: 2px;
+    margin-bottom: 4px;
+}
+
+.date-of-birth {
+    width: 309px;
+    background: rgba(21, 39, 51, 0.281);
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+    float: none;
+    margin-bottom: 8px;
+}
+
+.select1,
+.select2,
+.select3 {
+    background: rgba(11, 20, 10, 0.09);
+    cursor: pointer;
+}
+
+button {
+    width: 65px;
+    padding: 5px;
+    background: rgba(81, 67, 211, 0.76);
+    border-radius: 15px;
+    text-decoration: none;
+    border: none;
+    margin: 7px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+button:hover {
+    width: 66px;
+    background: transparent;
+    box-shadow: 0 0 40px rgba(4, 4, 5, 0.938);
+    padding: 6px;
+}
+
+button a:hover {
+    color: rgba(21, 21, 31, 0.753);
+}
+
+.account {
+    text-align: right;
+    margin: 9px;
+    background: transparent;
+}
+
+.account a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.account a:hover {
+    color: rgb(145, 45, 65)
+}
+
+
+/*--------- login ---------------------*/
+
+.content {
+    width: 418px;
+    height: auto;
+    background: rgba(45, 70, 82, 0.349);
+    padding: 50px;
+    height: auto;
+    margin-top: 16vh;
+    margin-bottom: 8vh;
+}
+
+.log {
+    width: 65px;
+    padding: 5px;
+    background: rgba(81, 67, 211, 0.76);
+    border-radius: 15px;
+    text-decoration: none;
+    border: none;
+    margin: 7px;
+    margin-bottom: 65px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+
+.log:hover {
+    width: 66px;
+    background: transparent;
+    box-shadow: 0 0 40px rgba(4, 4, 5, 0.938);
+    padding: 6px;
+}
+
+#checkbox {
+    cursor: pointer;
+}

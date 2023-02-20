@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for Home</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="ii"><a href="about.html">About us</a></li>
+            <li class="ii">
+                <a href="#">Video</a>
+            </li>
+            <li class="ii"><a href="portfolio.html">portfolio</a></li>
+            <li>
+                <div class="search"><img src="images1/web icon built.png"><input type="text" placeholder="search"></div>
+            </li>
+            <li>
+                <img src="images1/Saved Pictures/BS user image 3.png">
+            </li>
+        </ul>
+    </nav>
+    <div class="left-sidebar">
+        <!---------- left-sidebar------------- -->
+        <a href="#">Market place</a>
+        <a href="#">friends</a>
+        <a href="#">Run Ads</a>
+        <a href="#">Find producers</a>
+        <a href="#">create Job</a>
+        <a href="#">Find Job</a>
+        <a href="#">More stories</a>
+    </div>
+    <div class="profile">
+        <!------ profile for center content-->
+        <img src="images1/Saved Pictures/BS user image 3.png">
+        <div class="add_story">
+            <button id="adding" onclick="addStorys()">Add Story</button>
+            <button id="editing" onclick="editStorys()">Edit profile</button>
+            <button id="deleting" onclick="deleteStorys()">...</button>
+        </div>
+        <div class="the_t">
+            <div class="t_add" id="t_add">
+                <a href="www.facebook.com">Add story</a></li>
+                <a href="www.facebook.com">see story</a></li>
+            </div>
+            <div class="t_edit" id="t_edit">
+                <a href="www.facebook.com">Edit my pic</a></li>
+                <a href="www.facebook.com">Update my story</a></li>
+            </div>
+            <div class="t_delete" id="t_delete"><a href="#">delete account</a></div>
+        </div>
+        <script>
+            let sty = document.getElementById('t_add');
+
+            function addStorys() {
+                sty.classList.toggle('tAdd');
+            }
+
+            let edt = document.getElementById('t_edit');
+
+            function editStorys() {
+                edt.classList.toggle('tEdit');
+            }
+
+            let del = document.getElementById('t_delete');
+
+            function deleteStorys() {
+                del.classList.toggle('tDelete');
+            }
+        </script>
+
+</body>
+
+</html>

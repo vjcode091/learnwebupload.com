@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(154, 154, 206, 0.842);
+}
+
+nav {
+    background: rgba(83, 11, 105, 0.651);
+    text-align: right;
+    padding-top: 4px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul li {
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 2px;
+    display: inline-block;
+    padding: 0;
+}
+
+.search {
+    width: 280px;
+    padding: 0;
+    background: rgba(217, 240, 240, 0.925);
+    border-radius: 16px;
+    text-align: left;
+    display: flex;
+    margin: 0;
+    margin-right: 5px;
+    position: relative;
+    top: -19px;
+}
+
+.search img {
+    width: 18px;
+    height: 18px;
+    margin: 7px;
+    margin-right: 0;
+}
+
+.search input {
+    width: 255px;
+    padding: 2px;
+    margin: 0;
+    border-radius: 12px;
+    height: 31px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav ul li img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: rgba(246, 248, 250, 0.932);
+    text-decoration: none;
+    padding: 1px;
+    margin: 0;
+}
+
+.ii {
+    float: left;
+    word-spacing: 4px;
+    margin: 0 45px;
+}
+
+.ii a img {
+    width: 30px;
+    height: 20px;
+    border-radius: 0;
+    margin: 0;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid rgba(233, 71, 125, 0.815);
+    transition: 0.4s;
+    transform: translate(-20%, -40%) scale(0.1);
+}
+
+.left-sidebar {
+    width: 300px;
+    background: rgba(125, 132, 133, 0.103);
+    margin: 4px 3px 45px 2px;
+    padding: 43px;
+    float: left;
+    display: grid;
+    border-bottom: 3px solid rgba(235, 245, 245, 0.884);
+    position: sticky;
+    z-index: 100;
+    top: 5px;
+}
+
+.left-sidebar a {
+    width: 130px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(14, 14, 90);
+    margin: 4px;
+    margin-bottom: 18px;
+}
+
+.left-sidebar a:hover {
+    color: rgb(128, 96, 10);
+    font-size: 19px;
+}
+
+.content {
+    width: 110vh;
+    padding: 4px;
+    background: rgba(36, 26, 29, 0.295);
+    display: grid;
+    text-align: left;
+}
+
+.post {
+    width: auto;
+    background: rgba(69, 96, 136, 0.575);
+    padding: 13px;
+    padding-top: 30px;
+    border-top-right-radius: 23px;
+    border-bottom: 3px solid rgb(45, 38, 63);
+}
+
+.post input {
+    width: 600px;
+    background: rgba(234, 243, 245, 0.815);
+    padding: 18px;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: sans-serif;
+    border-radius: 22px;
+}
